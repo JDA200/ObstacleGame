@@ -85,7 +85,7 @@ while True:
             pygame.quit()
             sys.exit()
 
-    screen.fill((180, 180, 200))  # Fill the screen with block color, i.e. background
+    screen.fill(settings.background_colour)  # Fill the screen with block color, i.e. background
 
     keys = pygame.key.get_pressed()     #get state of all keys pressed
 
